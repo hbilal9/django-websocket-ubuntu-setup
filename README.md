@@ -93,7 +93,7 @@ sudo systemctl enable gunicorn.socket
 sudo systemctl status gunicorn.socket
 ```
 
-```
+`
 Output
 ● gunicorn.socket - gunicorn socket
      Loaded: loaded (/etc/systemd/system/gunicorn.socket; enabled; vendor prese>
@@ -103,7 +103,7 @@ Output
       Tasks: 0 (limit: 1137)
      Memory: 0B
      CGroup: /system.slice/gunicorn.socket
-```
+`
 Reload Servers
 ```
 sudo systemctl daemon-reload
