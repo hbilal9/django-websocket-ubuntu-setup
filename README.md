@@ -22,6 +22,10 @@ install dependences
 ```
 pip install django gunicorn uvicorn psycopg2-binary
 ```
+sometime uvicorn not workng try this
+```
+pip install 'uvicorn[standard]'
+```
 
 ## Step 3 — Configuring Django Project
 ```
