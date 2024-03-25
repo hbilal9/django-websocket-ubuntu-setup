@@ -8,7 +8,9 @@
 python3 -V
 ```
 output:- 3.10
+
 suppose here im upgrading to 3.11
+
 Install Python 3.11
 ### step 02 - Add the repository and update
 ```
@@ -44,6 +46,12 @@ sudo update-alternatives --config python3
 python3 -V
 ```
 You should get Python 3.11 as an output.
+
+### step 05 -  Install python 3.11 dev and venv
+
+```
+sudo apt install python3.11-venv python3.11-dev
+```
 
 
 ## Step 1 — Installing the Packages from the Ubuntu Repositories
