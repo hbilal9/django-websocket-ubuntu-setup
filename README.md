@@ -1,5 +1,51 @@
 # django-websocket-ubuntu-setup
 
+## upgrading python
+
+### step 01 - check python version
+
+```
+python3 -V
+```
+output:- 3.10
+suppose here im upgrading to 3.11
+Install Python 3.11
+### step 02 - Add the repository and update
+```
+sudo add-apt-repository ppa:deadsnakes/ppa
+```
+```
+sudo apt-get update
+```
+```
+apt-get update
+```
+Verify the updated Python packages list using this command.
+```
+apt list | grep python3.11
+```
+### step 03 - Install the Python 3.11 package using apt-get
+```
+sudo apt-get install python3.11
+```
+### step 04 - Add Python 3.10 & Python 3.11 to update-alternatives
+```
+sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.10 1
+```
+```
+sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.11 2
+```
+
+### step 05 -  Update Python 3 for point to Python 3.11
+```
+sudo update-alternatives --config python3
+```
+```
+python3 -V
+```
+You should get Python 3.11 as an output.
+
+
 ## Step 1 — Installing the Packages from the Ubuntu Repositories
 
 ```
