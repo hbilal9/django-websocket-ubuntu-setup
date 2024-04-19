@@ -44,10 +44,15 @@ sudo update-alternatives --config python3
 ```
 ```
 python3 -V
-```
-You should get Python 3.11 as an output.
 
-### step 05 -  Install python 3.11 dev and venv
+```
+### step 06 -  Install Redis Cli
+Goto link and follow the steps
+```
+https://redis.io/docs/latest/operate/oss_and_stack/install/install-redis/install-redis-on-linux/
+```
+
+### step 07 -  Install python 3.11 dev and venv
 
 ```
 sudo apt install python3.11-venv python3.11-dev
